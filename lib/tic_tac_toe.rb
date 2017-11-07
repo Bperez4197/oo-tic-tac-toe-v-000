@@ -99,4 +99,11 @@ def over?
   won? || draw?
 end
 
+def winner
+  if won?
+    return @board[won?[0]]
+  else
+  end
+end
+
 end
