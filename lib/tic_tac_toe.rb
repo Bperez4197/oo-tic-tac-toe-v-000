@@ -45,7 +45,7 @@ end
 
   def turn_count
     count = 0
-    @board.each = position_taken?(index)
+    @board = position_taken?(index)
     count += 1
   end
 
