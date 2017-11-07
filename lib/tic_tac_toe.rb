@@ -90,6 +90,6 @@ end
    full? && !won?
    puts "Cat's Game!"
  end
-   
+
 
 end
