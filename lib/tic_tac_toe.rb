@@ -21,18 +21,28 @@ WIN_COMBINATIONS = [
     puts "-----------"
     puts " #{@board[6]} | #{@board[7]} | #{@board[8]} "
   end
+
   def input_to_index(input)
     input = input.to_i - 1
 end
+
   def move(index, token = "X")
     @board[index] = token
     display_board
-  end
+end
+
   def position_taken?(index)
     if @board[index] == "X" || @board[index] == "O"
       return true
     else
       return false
     end
+  end
+
+  def valid_move?(index)
+    index.between?(0,8) && !position_taken?(index)
+  end
+    
+    
   end
 end
