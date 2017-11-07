@@ -29,7 +29,7 @@ end
     display_board
   end
   def position_taken?
-    if @board[index] == "X" || @board[index] == "O"
+    if @board[index] != "X" || @board[index] != "O"
     end
   end
 end
