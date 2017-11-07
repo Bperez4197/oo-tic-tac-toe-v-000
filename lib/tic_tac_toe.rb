@@ -23,5 +23,5 @@ WIN_COMBINATIONS = [
   end
   def input_to_index
     gets.strip = input.to_i - 1
-    
+end
 end
