@@ -45,7 +45,7 @@ end
 
   def turn_count
     count = 0
-    position_taken?(index)
+    position_taken?
     count += 1
   end
 
