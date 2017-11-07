@@ -48,8 +48,6 @@ end
     @board.each = position_taken?(index)
     count += 1
   end
-end
-end
 
 
 
