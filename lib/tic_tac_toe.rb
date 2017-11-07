@@ -95,5 +95,8 @@ end
  end
  end
 
+def over?
+  won? || draw?
+end
 
 end
