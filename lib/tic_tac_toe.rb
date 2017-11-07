@@ -25,7 +25,7 @@ WIN_COMBINATIONS = [
     input = input.to_i - 1
 end
   def move(index, token = "X")
-    @board = input_to_index(gets.strip)
+    @board[index] = token
     display_board
   end
 end
