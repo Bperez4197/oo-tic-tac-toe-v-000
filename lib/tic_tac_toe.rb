@@ -66,7 +66,6 @@ end
       puts "Sorry, that was an invalid move."
       turn
     end
-  end
 
 
 
