@@ -82,4 +82,14 @@ def won?
   end
 end
 
+ def full?
+   @board.none? {|blank| blank == " " || blank.nil?}
+ end
+
+ def draw?
+   full? && !won?
+   puts "Cat's Game!"
+ end
+   
+
 end
