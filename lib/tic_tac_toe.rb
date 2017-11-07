@@ -45,9 +45,13 @@ end
 
   def turn_count
     count = 0
-    valid_move?(index)
+    @board.each do |move|
+      if move == "X" || move == "O"
     count += 1
   end
+end
+count
+end
 
 
 
