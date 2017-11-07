@@ -42,4 +42,14 @@ end
   def valid_move?(index)
     index.between?(0,8) && !position_taken?(index)
   end
+
+  def turn_count
+    count = 0
+    valid_move?(index)
+    count += 1
+
+  end
+
+
+  
 end
