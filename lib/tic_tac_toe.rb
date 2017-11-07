@@ -39,10 +39,10 @@ end
     end
   end
 
-  def valid_move?(index)
+  def valid_move?(board, index)
     index.between?(0,8) && !position_taken?(index)
   end
-    
-    
+
+
   end
 end
