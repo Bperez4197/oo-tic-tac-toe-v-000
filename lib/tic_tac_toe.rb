@@ -30,4 +30,5 @@ end
   end
   def position_taken?
     if board[index] == "X" || board[index] == "O"
+    end
 end
