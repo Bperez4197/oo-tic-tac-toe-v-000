@@ -43,7 +43,7 @@ end
     index.between?(0,8) && !position_taken?(index)
   end
 
-  def turn_count
+  def turn_count(index)
     count = 0
     @board.each = position_taken?(index)
     count += 1
