@@ -57,5 +57,17 @@ end
   turn_count.even? ? "X" : "O"
 end
 
+  def turn
+    puts "Please enter 1-9:"
+    index = input_to_index(gets.strip)
+    if valid_move?(index
+      move(index, current_player)
+    else
+      puts "Sorry, that was an invalid move."
+      turn
+    end
+  end
+
+
 
 end
