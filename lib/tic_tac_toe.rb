@@ -42,7 +42,4 @@ end
   def valid_move?
     @board && !position_taken?(index)
   end
-
-
-  end
 end
