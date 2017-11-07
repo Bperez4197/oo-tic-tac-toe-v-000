@@ -28,7 +28,7 @@ end
     @board[index] = token
     display_board
   end
-  def position_taken?(board)
+  def position_taken?(index)
     if @board[index] != " " || nil
     end
   end
