@@ -45,7 +45,7 @@ end
 
   def turn_count
     count = 0
-    valid_move?(index)
+    move(index, token)
     count += 1
 
   end
