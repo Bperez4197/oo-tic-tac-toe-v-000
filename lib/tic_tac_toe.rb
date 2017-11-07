@@ -87,11 +87,12 @@ end
  end
 
  def draw?
-   full? && !won?
+  if full? && !won?
    return true
- else 
-   return false
    puts "Cat's Game!"
+ else
+   return false
+ end
  end
 
 
