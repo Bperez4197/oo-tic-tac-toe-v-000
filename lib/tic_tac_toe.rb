@@ -28,4 +28,6 @@ end
     @board[index] = token
     display_board
   end
+  def position_taken?
+    if board[index] == "X" || board[index] == "O"
 end
