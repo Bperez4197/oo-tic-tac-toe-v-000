@@ -45,7 +45,7 @@ end
 
   def turn_count
     count = 0
-    position_taken?
+    valid_move?(index)
     count += 1
   end
 
